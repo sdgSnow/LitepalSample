@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名称-->
+    <dbname value="LitepalSample" />
+    <!--数据库版本-->
+    <version value="1" />
+    <!--有几张表就在list之间写几个mapping，list标签中的实体类都应该继承LitePalSupport这个类-->
+    <list>
+        <mapping class="com.sdg.litepalsample.sample.Person" />
+    </list>
+
+    <storage value="Android/data/com.sdg.litepalsample/litepal/" />
+
+</litepal>
